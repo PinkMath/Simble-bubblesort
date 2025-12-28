@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: lightcoral;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body h2 {
+	padding: 9px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90%;
+	padding: 20px;
+}
+
+.all {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 25px;
+}
+
+.not-fixed,
+.fixed {
+	width: 140px;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+
+	h2 {text-align: center;}
+}
